@@ -49,9 +49,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am interested in Software Engineering Roles. Please feel free to
+            contact me using to form below and I will reach out to you ASAP!!
+            <br></br>
+            P.S: Hiring Managers can directly contact on the Email mentioned.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>

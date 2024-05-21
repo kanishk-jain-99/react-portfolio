@@ -12,6 +12,7 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -33,19 +34,36 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
+            I'm a very ambitious Software Engineer looking for a role in an
+            amazing company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p>
             I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            improving my chops one problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            If I need to define myself in one sentence, it would be:
+            goal-oriented, fun-loving, a sports fanatic, a beach lover, and
+            tech-obsessed!!!
           </p>
+          <p>
+            If you want to learn more about my professional experience please
+            click the button below to check out my resume and if I sound
+            interesting to you please feel free to reach out to me on the
+            contact details provided on the resume or the{' '}
+            <Link to="/contact" style={{ textDecoration: 'none' }}>
+              <span className="secondary-text">Contact page</span>
+            </Link>
+            .
+          </p>
+          <Link
+            target="_blank"
+            to={process.env.REACT_APP_RESUME_URL}
+            className="flat-button"
+          >
+            RESUME / CV
+          </Link>
         </div>
 
         <div className="stage-cube-cont">

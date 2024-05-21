@@ -56,27 +56,9 @@ const Sidebar = () => (
         <a
           target="_blank"
           rel="nonreferrer"
-          href="https://www.linkedin.com/in/kanishk-jain-1999j/"
+          href="https://github.com/kanishk-jain-99"
         >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="nonreferrer"
-          href="https://www.linkedin.com/in/kanishk-jain-1999j/"
-        >
-          <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="nonreferrer"
-          href="https://www.linkedin.com/in/kanishk-jain-1999j/"
-        >
-          <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
         </a>
       </li>
     </ul>
