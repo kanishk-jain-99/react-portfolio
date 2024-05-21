@@ -48,6 +48,15 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .home-page {
+    .text-zone {
+      left: 30%;
+      width: 80%;
+    }
+  }
+}
+
 h2 {
   color: #8d8d8d;
   margin-top: 20px;
