@@ -32,3 +32,17 @@
   z-index: 1;
   animation: rotate-animation 2s ease-in-out 1s forwards;
 }
+
+@media only screen and (max-width: 600px) {
+  .solid-logo {
+    width: 100px; /* Decrease the width for smaller screens */
+    left: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+  .solid-logo {
+    width: 100px; /* Decrease the width for smaller screens in landscape mode */
+    left: 50%;
+  }
+}
